@@ -1,0 +1,29 @@
+{
+  "category.umwa.general": "UMWA Controls",
+  "key.umwa.toggle_hud": "Toggle Mining HUD",
+  "key.umwa.toggle_minimap": "Toggle Minimap",
+  "key.umwa.open_menu": "Open Mining Menu",
+  
+  "umwa.hud.mining_stats": "UMWA Mining Stats",
+  "umwa.hud.blocks_mined": "Blocks Mined: %d",
+  "umwa.hud.ores_found": "Ores Found: %d",
+  "umwa.hud.efficiency": "Efficiency: %.2f%%",
+  "umwa.hud.blocks_per_minute": "Blocks/Min: %.1f",
+  "umwa.hud.position": "Position: %d, %d, %d",
+  
+  "umwa.analysis.optimal_diamond": "Optimal Diamond Level!",
+  "umwa.analysis.good_depth": "Good mining depth",
+  "umwa.analysis.go_deeper": "Go deeper for better ores",
+  "umwa.analysis.near_bedrock": "Near bedrock - be careful!",
+  
+  "umwa.hotspot.high_value": "High-Value Hotspot",
+  "umwa.hotspot.medium_value": "Medium-Value Hotspot",
+  "umwa.hotspot.low_value": "Low-Value Hotspot",
+  
+  "umwa.cave.large": "Large Cave System",
+  "umwa.cave.small": "Cave System",
+  
+  "umwa.notification.ore_vein": "Ore vein detected!",
+  "umwa.notification.hotspot_found": "Hotspot discovered!",
+  "umwa.notification.cave_found": "Cave system mapped!"
+}

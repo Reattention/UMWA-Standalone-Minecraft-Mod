@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "umwa-mod",
+  "version": "${version}",
+  "name": "Ultimate Minecraft World Analyser",
+  "description": "Advanced mining analysis and world exploration mod with AI-powered features",
+  "authors": [
+    "UMWA Team"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Reattention/UMWA-Standalone-Minecraft-Mod",
+    "sources": "https://github.com/Reattention/UMWA-Standalone-Minecraft-Mod"
+  },
+  "license": "MIT",
+  "icon": "assets/umwa-mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.umwa.UMWAMod"
+    ],
+    "client": [
+      "com.umwa.client.UMWAModClient"
+    ]
+  },
+  "mixins": [
+    "umwa-mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
